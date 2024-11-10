@@ -1,0 +1,54 @@
+/* /* General Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 40px;
+    border: 5px solid black;
+}
+
+/* Header Styling */
+h1, .static {
+    text-align: center; /* Aligns text to the center */
+    margin-bottom: 20px; /* Adds space below each heading */
+}
+
+/* Personal Information Section */
+.Personal-information {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: flex-start;  /* Align left */
+    margin-left: 20px;  /* Optional: adds some space from left */
+}
+
+/* Experience Section */
+.Experience {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: flex-start;  /* Align items to the left */
+    margin-left: 20px;  /* Optional: adds space from left */
+}
+
+/* Skills Section */
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;  /* Remove default padding */
+    margin: 0;  /* Remove default margin */
+}
+
+ul li {
+    margin: 10px 0;  /* Adds space between list items */
+}
+
+/* Image Styling */
+.picture {
+    width: 100px;  /* Set image width */
+    margin-left: 6px;  /* Optional: fine-tune image position */
+}
+
+/* Additional styling for section content */
+section {
+    margin-bottom: 20px;  /* Adds space between sections */
+}
